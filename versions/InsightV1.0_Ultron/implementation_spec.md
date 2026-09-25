@@ -1,6 +1,6 @@
-# UAP_ULTRON — Ultron_insightV1.0 Implementation Specification
+# ROBO_ULTRON — Ultron_insightV1.0 Implementation Specification
 
-> First real-world, industry-oriented deployment version of the UAP_ULTRON mother project.
+> First real-world, industry-oriented deployment version of the ROBO_ULTRON mother project.
 > The transition from the current Ultron_V0.3 is defined in this document (the *target spec* for InsightV1.0, not the V0.3 build). The V0.3 Bible (`../V0.3_Ultron/implementation_bible.md`) contains only Ultron_V0.3 implementation details.
 > AI rationale: see [`../../docs/10_architecture/ai_architecture.md`](../../docs/10_architecture/ai_architecture.md).
 

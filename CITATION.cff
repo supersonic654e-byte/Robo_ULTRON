@@ -1,0 +1,53 @@
+# CITATION.cff — ROBO_ULTRON repository
+#
+# This is a pre-publication research repository (see the root README). Until the
+# team lifts that notice, contributors are credited only by role and the
+# preferred citation is the implementation Bible, not a published paper.
+#
+# When a paper is accepted, update this file: add the DOI/ORCIDs, switch the
+# preferred-citation to the paper, and remove this notice.
+
+cff-version: 1.2.0
+message: "If you use or refer to this work, please cite the Ultron_V0.3 implementation Bible as below."
+title: "ROBO_ULTRON — Ultron_V0.3 autonomous indoor robot platform (implementation Bible + source)"
+abstract: >-
+  ROBO_ULTRON is a student-built line of low-cost autonomous robots for
+  healthcare. Ultron_V0.3 is the final testing / pre-deployment prototype: a
+  two-layer (Jetson edge + laptop compute) ROS 2 Humble platform with an
+  Arduino Mega real-time layer, CycloneDDS over Tailscale, a layered safety
+  architecture, and a privacy-by-design data-collection pipeline. This
+  repository contains the implementation Bible, Arduino firmware, ROS 2 nodes,
+  Docker configuration, web control system, tests, calibration, deploy assets,
+  and engineering documentation.
+keywords:
+  - mobile robot
+  - ROS 2
+  - autonomous navigation
+  - safety
+  - data collection
+  - privacy-by-design
+  - embedded systems
+  - Arduino
+  - Jetson
+type: software
+license: MIT
+license-url: "https://opensource.org/license/mit/"
+version: "Ultron_V0.3"
+date-released: "2026-08-08"
+preferred-citation:
+  type: unpublished
+  title: "Ultron_V0.3 — Final Implementation Bible"
+  authors:
+    - family-names: "ROBO_ULTRON Team"
+      given-names: "Student Researcher & Technical Expert"
+  date: "2026-08-08"
+  notes: >-
+    Canonical build/deploy/ops reference. Pre-publication; contributor
+    identities withheld by role until the paper is accepted.
+authors:
+  - name: "ROBO_ULTRON Team (Student Researcher & Technical Expert)"
+    affiliation: "Student research team, Dhaka, Bangladesh"
+maintainers:
+  - name: "ROBO_ULTRON Team (Student Researcher & Technical Expert)"
+    affiliation: "Student research team, Dhaka, Bangladesh"
+repository-code: "https://github.com/supersonic654e-byte/ROBO_ULTRON"

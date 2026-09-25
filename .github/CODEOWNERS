@@ -1,0 +1,43 @@
+# CODEOWNERS — review routing aid
+#
+# These are **suggested reviewers**, not access-control gates.
+# GitHub auto-requests a review from owners when PRs touch their paths.
+# Adjust roles to match actual team assignments.
+
+# Default: any team member can review docs-level changes
+* @ROBO_ULTRON/core
+
+# ----------------------------------------------------------------
+# Firmware & hardware — embedded lead
+# ----------------------------------------------------------------
+/versions/V0.3_Ultron/firmware/         @ROBO_ULTRON/embedded-lead
+/versions/V0.3_Ultron/hardware/         @ROBO_ULTRON/embedded-lead
+
+# ----------------------------------------------------------------
+# ROS 2 software — software lead
+# ----------------------------------------------------------------
+/versions/V0.3_Ultron/software/jetson/ @ROBO_ULTRON/software-lead
+/versions/V0.3_Ultron/software/laptop/  @ROBO_ULTRON/software-lead
+
+# ----------------------------------------------------------------
+# Web control system — web lead
+# ----------------------------------------------------------------
+/versions/V0.3_Ultron/software/web/     @ROBO_ULTRON/web-lead
+
+# ----------------------------------------------------------------
+# Tests — embedded-lead + software-lead
+# ----------------------------------------------------------------
+/versions/V0.3_Ultron/tests/            @ROBO_ULTRON/embedded-lead @ROBO_ULTRON/software-lead
+
+# ----------------------------------------------------------------
+# Documentation & process — everyone
+# ----------------------------------------------------------------
+/docs/                                  @ROBO_ULTRON/core
+/CONTRIBUTING.md                        @ROBO_ULTRON/core
+/GETTING_STARTED.md                     @ROBO_ULTRON/core
+/SECURITY.md                            @ROBO_ULTRON/core
+
+# ----------------------------------------------------------------
+# CI / GitHub config — software-lead
+# ----------------------------------------------------------------
+/.github/                               @ROBO_ULTRON/software-lead

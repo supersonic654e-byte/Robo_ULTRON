@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation / Getting Started
+    url: ../blob/main/GETTING_STARTED.md
+    about: "New here? Start with the 30-minute onboarding guide."
+  - name: 📋 Implementation Bible
+    url: ../blob/main/versions/V0.3_Ultron/implementation_bible.md
+    about: "Build-specific facts, wiring, and parameters — this is the authoritative source."
+  - name: 🏗️ Architecture Overview
+    url: ../blob/main/docs/ARCHITECTURE.md
+    about: "System architecture, ROS 2 design, safety layers, and diagrams."

@@ -1,5 +1,5 @@
 ====================================================================
-UAP_ULTRON AI ARCHITECTURE - SHORT VERSION
+ROBO_ULTRON AI ARCHITECTURE - SHORT VERSION
 HOW REAL COMPANIES BUILD AI (Verified)
 ====================================================================
 
@@ -17,7 +17,7 @@ COLLECT DATA → FIND PATTERNS → MAKE PREDICTIONS
 
 ---
 
-UAP_ULTRON FOLLOWS THE SAME PATTERN:
+ROBO_ULTRON FOLLOWS THE SAME PATTERN:
 
 VERSION 1: ULTRON INSIGHT V1.0 (ENVIRONMENT + LOGISTICS + HUMAN-BEHAVIOUR)
 ├─ Collect: Temperature, humidity, CO2, occupancy, anonymous motion features,
@@ -65,7 +65,7 @@ TESLA (Autonomous driving):
 ├─ Learns: "This road pattern = pedestrian crossing → brake"
 └─ Predicts: Slams brakes before human sees pedestrian
 
-UAP_ULTRON (Hospital operations + infection intelligence):
+ROBO_ULTRON (Hospital operations + infection intelligence):
 ├─ Collects: Environmental + movement + logistics + patient data
 ├─ Learns: "This pattern = crowding + infection → outbreak"
 └─ Predicts: Alerts before outbreak spreads
@@ -157,7 +157,7 @@ Same principle. Different scale. Same result.
 
 ROADMAP NOTE:
 
-UAP_ULTRON is the mother project for a line of autonomous medical robots.
+ROBO_ULTRON is the mother project for a line of autonomous medical robots.
 Project lineage: the early laboratory/research prototypes are Ultron_V0.1 and
 Ultron_V0.2. The current third physical build is Ultron_V0.3 — the last
 testing / pre-real-world-deployment version, used for the first real-world
@@ -166,7 +166,7 @@ environment signals stored on the operator laptop, the "cloud" for V0.3).
 With the planned hardware + software upgrade (see
 [`../../versions/InsightV1.0_Ultron/implementation_spec.md`](../../versions/InsightV1.0_Ultron/implementation_spec.md)),
 Ultron_V0.3 becomes Ultron_insightV1.0, the first real-world industry-grade
-deployable UAP_ULTRON robot.
+deployable ROBO_ULTRON robot.
 
 Product roadmap:
 V1 = ULTRON INSIGHT V1.0 (Ultron_insightV1.0 — this platform)

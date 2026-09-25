@@ -1,6 +1,6 @@
-# UAP_ULTRON — Ultron_V0.1 & Ultron_V0.2 (Laboratory Prototype History)
+# ROBO_ULTRON — Ultron_V0.1 & Ultron_V0.2 (Laboratory Prototype History)
 
-> Generation history of the UAP_ULTRON mother project.
+> Generation history of the ROBO_ULTRON mother project.
 > These two robots are **experimental / laboratory prototypes and learning/research platforms** — **not** deployment-ready robots. They exist to document *how* the project learned to build the deployable platform, not as reference hardware.
 
 ---

@@ -1,10 +1,10 @@
-# UAP_ULTRON — Project Overview
+# ROBO_ULTRON — Project Overview
 
 > **Status:** Active development. Current hardware generation: **Ultron_V0.3** (final testing / pre-deployment prototype).
 
 ## What this project is
 
-UAP_ULTRON is the mother project for a line of **low-cost autonomous mobile
+ROBO_ULTRON is the mother project for a line of **low-cost autonomous mobile
 robots for healthcare**. We are a student research team building the robots
 ourselves — chassis, embedded control, ROS 2 software, safety, and the data
 pipeline — starting from scratch.
@@ -30,7 +30,7 @@ Bangladesh hospitals operate under heavy constraints:
 
 There is no local robotics company serving healthcare. That is the gap we are building into.
 
-## What UAP_ULTRON is NOT (yet)
+## What ROBO_ULTRON is NOT (yet)
 
 - It is **not** a production product. The current robot (V0.3) is a
   **pre-deployment testing prototype** — the last experimental generation.

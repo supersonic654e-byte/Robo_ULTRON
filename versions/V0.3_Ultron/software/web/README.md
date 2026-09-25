@@ -99,6 +99,10 @@ pip install -r requirements.txt pytest httpx
 python -m pytest -q software/web/tests
 ```
 
+## Screenshots
+
+See [`docs/10_architecture/screenshots/`](../../../docs/10_architecture/screenshots/README.md) for reference captures of the admin dashboard and user control panel.
+
 ## Command safety (server-side)
 
 - Teleop clamped to 0.45 m/s, yaw to 1.0 rad/s (matches firmware).

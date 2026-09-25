@@ -1,0 +1,40 @@
+version: 2
+updates:
+  # Pin GitHub Actions to approved versions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "dependencies"
+      - "ci"
+
+  # Pin Python deps for the web control system
+  - package-ecosystem: "pip"
+    directory: "versions/V0.3_Ultron/software/web"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "dependencies"
+      - "web"
+
+  # Pin Docker base images (Jetson + web)
+  - package-ecosystem: "docker"
+    directory: "versions/V0.3_Ultron/software/jetson"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "dependencies"
+      - "docker"
+
+  - package-ecosystem: "docker"
+    directory: "versions/V0.3_Ultron/software/web"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    labels:
+      - "dependencies"
+      - "docker"

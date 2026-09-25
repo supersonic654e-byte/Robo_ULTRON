@@ -1,0 +1,75 @@
+# .dockerignore — keep the Docker build context lean and secrets-free.
+#
+# Dockerfiles live inside the tree (versions/<gen>/software/{jetson,laptop,web}),
+# and builds are run from those subdirectories. This root file is a safety net:
+# copy it (or symlink it) next to any Dockerfile whose build context is wide.
+#
+# Goals:
+#   1. Never bake secrets, recorded data, or large binaries into an image.
+#   2. Keep build context small → faster, cache-friendlier builds.
+#   3. Never include .git or generated artifacts.
+
+# --- VCS ---
+.git
+.gitignore
+.gitattributes
+.github
+
+# --- Documentation (large, irrelevant to image builds) ---
+docs
+**/*.md
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
+GETTING_STARTED.md
+CITATION.cff
+
+# --- Recorded data and results (privacy + size) ---
+**/*.bag
+**/*.mcap
+**/*.db3
+**/data_pilot/**/*.jsonl
+versions/**/data_pilot/**
+versions/**/tests/results/**
+!versions/**/tests/results/.gitkeep
+
+# --- Secrets / keys / local config ---
+.env
+.env.*
+*.key
+*.pem
+secrets/
+**/secrets/
+versions/**/software/web/data/
+
+# --- Large reference binaries (tracked separately / via LFS) ---
+docs/90_reference/datasheets/**
+docs/90_reference/CAD/**
+*.pdf
+*.step
+*.stl
+
+# --- Build artifacts (host + language) ---
+build/
+install/
+log/
+__pycache__/
+*.py[cod]
+*.so
+*.elf
+*.hex
+*.o
+*.a
+.colcon_ignore
+
+# --- IDE / OS noise ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Editor / lint config not needed inside images ---
+.editorconfig
+
+# --- This policy file itself ---
+.dockerignore

@@ -1,6 +1,6 @@
-# UAP_ULTRON — License
+# ROBO_ULTRON — License
 
-Copyright (c) 2026 Supersonic Team (UAP_ULTRON)
+Copyright (c) 2026 Supersonic Team (ROBO_ULTRON)
 
 ## Code (MIT)
 
@@ -30,7 +30,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 All documentation and Markdown content in this repository is licensed under the
 Creative Commons Attribution 4.0 International License (CC-BY-4.0). You are free
-to share and adapt it with attribution to the UAP_ULTRON team.
+to share and adapt it with attribution to the ROBO_ULTRON team.
 
 https://creativecommons.org/licenses/by/4.0/
 

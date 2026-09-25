@@ -7,7 +7,7 @@ disagree, this file wins and the other one is wrong — fix the other one.
 
 | Canonical token | Meaning |
 |---|---|
-| `UAP_ULTRON` | The mother project (repo root). Always uppercase. |
+| `ROBO_ULTRON` | The mother project (repo root). Always uppercase. |
 | `Ultron_V0.1` | First laboratory prototype (2024). |
 | `Ultron_V0.2` | Research prototype (2025). |
 | `Ultron_V0.3` | Current build — final testing / pre-deployment prototype. |
@@ -36,7 +36,7 @@ Rules:
 
 | Layer | Convention | Example |
 |---|---|---|
-| Commercial / project identity | `Ultron_V0.3`, `UAP_ULTRON` | — |
+| Commercial / project identity | `Ultron_V0.3`, `ROBO_ULTRON` | — |
 | ROS package / node names | `ultron_*` | `ultron_onboard`, `ultron_serial_node` |
 | Custom topics | `/ultron/*` | `/ultron/fault`, `/ultron/heartbeat` |
 | Device symlinks | `/dev/ultron_*` | `/dev/ultron_arduino`, `/dev/ultron_lidar` |

@@ -12,7 +12,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='UAP_ULTRON Team',
+    maintainer='ROBO_ULTRON Team',
     maintainer_email='team@example.com',
     description='Ultron_V0.3 onboard nodes: Kinect driver, depth-to-scan, safety, serial bridge, data logger.',
     license='Apache-2.0',

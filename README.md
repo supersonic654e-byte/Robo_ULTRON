@@ -1,4 +1,4 @@
-# UAP_ULTRON
+# ROBO_ULTRON
 
 > Low-cost autonomous robots for healthcare. Built by a student research team in
 > Dhaka, Bangladesh — robots, embedded control, ROS 2, safety, and data pipeline,
@@ -78,6 +78,22 @@ for the two-bundle end-user path.
 
 **Control it from the web:** bring up `ultron_web`
 ([README](versions/V0.3_Ultron/software/web/README.md)) → `/admin` and `/user`.
+
+**New contributor?** see [GETTING_STARTED](GETTING_STARTED.md) (30-min onboarding) and [CONTRIBUTING](CONTRIBUTING.md).
+
+## Documentation map
+
+| Document | Purpose |
+|---|---|
+| [**GETTING_STARTED**](GETTING_STARTED.md) | 30-min new-contributor onboarding (clone → test → read → first change) |
+| [**CONTRIBUTING**](CONTRIBUTING.md) | Branch/PR model, safety-first rules, quality gates, commit conventions |
+| [**Architecture Hub**](docs/ARCHITECTURE.md) | Single-page map of all architecture docs + diagrams + ADRs |
+| [**Implementation Bible**](versions/V0.3_Ultron/implementation_bible.md) | Canonical build/deploy/ops reference for V0.3 (19 sections) |
+| [**Engineering Audit**](docs/20_engineering_process/engineering_audit.md) | Full audit: scores, risk register, P0–P3 corrections, per-component verdict |
+| [**Quality Gates**](docs/20_engineering_process/quality_gates.md) | Gates A–F (PR, hardware, software, field, release, paper) |
+| [**ADRs**](docs/20_engineering_process/decisions/README.md) | Architecture Decision Records (0001–0006) |
+| [**Roadmap**](docs/00_project/roadmap.md) | V0.3 → InsightV1.0 → VitalsV2.0 → MedAssistV3.0 |
+| [**Deployment Guide**](docs/20_engineering_process/user_deployment_guide.md) | End-user two-bundle install (Jetson + laptop + firmware) |
 
 ## Verification & CI
 

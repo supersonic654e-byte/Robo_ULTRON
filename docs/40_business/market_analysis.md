@@ -24,7 +24,7 @@
 
 ## Our positioning
 
-| | Imported robots | UAP_ULTRON (plan) |
+| | Imported robots | ROBO_ULTRON (plan) |
 |---|---|---|
 | Cost | USD 100k–200k | ~USD 1.7k target |
 | Designed for | USA/EU hospitals | Bangladesh hospitals |

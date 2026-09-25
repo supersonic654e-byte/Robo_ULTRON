@@ -2,7 +2,7 @@
 
 Dated log of significant changes. Newest first. Format: `YYYY-MM-DD — what changed (author/PR)`.
 
-## 2026-08-08 — Bible r4 sync + professional docx/txt export (UAP_ULTRON Team)
+## 2026-08-08 — Bible r4 sync + professional docx/txt export (ROBO_ULTRON Team)
 
 - Updated `implementation_bible.md` to reflect all audit P0-P2 work: closed-loop
   wheel PID (P0), `camera_info`-driven depth→scan (P1), EKF-onboard launch
@@ -15,7 +15,7 @@ Dated log of significant changes. Newest first. Format: `YYYY-MM-DD — what cha
   page, TOC field, styled Heading 1/2/3, shaded monospace code blocks, native
   tables, and a footer with page numbers.
 
-## 2026-08-08 — Audit P1/P2: camera_info depth→scan, EKF-onboard, diagnostics (UAP_ULTRON Team)
+## 2026-08-08 — Audit P1/P2: camera_info depth→scan, EKF-onboard, diagnostics (ROBO_ULTRON Team)
 
 - **P1 — `depth_to_scan` now consumes `/kinect/depth/camera_info`** (live fx/cx
   from the ROI-corrected K) instead of hardcoded intrinsics, so the Kinect 1414
@@ -31,12 +31,12 @@ Dated log of significant changes. Newest first. Format: `YYYY-MM-DD — what cha
 - **P2 — reserved topic slots:** `/ultron/env`, `/ultron/occupancy`,
   `/diagnostics` documented in `ros_architecture.md` for InsightV1.0 sensors.
 
-## 2026-08-08 — Pre-publication privacy + anonymous team credits (UAP_ULTRON Team)
+## 2026-08-08 — Pre-publication privacy + anonymous team credits (ROBO_ULTRON Team)
 
 - Repository set to **private** until paper submission (GitHub visibility change).
 - Contributor identities withheld: all credits now use role labels
   (**Student Researcher & Technical Expert**) with no personal names or emails.
-- Local git identity set to anonymous `UAP_ULTRON Team` for future commits.
+- Local git identity set to anonymous `ROBO_ULTRON Team` for future commits.
 - Added "Pre-publication privacy" notice to the root README.
 
 ## 2026-08-08 — Web Control System: admin dashboard + user panel (Student Researcher & Technical Expert)
@@ -91,7 +91,7 @@ Dated log of significant changes. Newest first. Format: `YYYY-MM-DD — what cha
 
 ## 2026-08-08 — V0.3 monorepo restructure (Team_Supersonic)
 
-- Created the UAP_ULTRON monorepo layout (docs/, versions/, .github/).
+- Created the ROBO_ULTRON monorepo layout (docs/, versions/, .github/).
 - Converted the implementation Bible to Markdown
   (`versions/V0.3_Ultron/implementation_bible.md`).
 - Split the V0.1/V0.2 history into per-version folders.

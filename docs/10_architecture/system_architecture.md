@@ -3,7 +3,7 @@
 > Maintainers: **Student Researcher & Technical Expert** (industrial-grade system architecture design).
 > Reviewed: 2026-08-08.
 
-This document is the architecture-level view of UAP_ULTRON. The implementation
+This document is the architecture-level view of ROBO_ULTRON. The implementation
 Bible (`versions/V0.3_Ultron/implementation_bible.md`) is the build reference;
 this page explains **why** the system is split the way it is, and how it stays
 upgradeable across generations.

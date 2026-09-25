@@ -1,4 +1,4 @@
-# UAP_ULTRON — Engineering Audit & Corrected Architecture
+# ROBO_ULTRON — Engineering Audit & Corrected Architecture
 
 **Audited document:** `../versions/V0.3_Ultron/implementation_bible.md` — the implementation Bible for **Ultron_V0.3**.
 **Date:** 08 August 2026
@@ -250,4 +250,4 @@ Everything else is upgrade-in-place.
 
 ---
 
-*This audit was applied as the Ultron_V0.3 restructure to `../versions/V0.3_Ultron/implementation_bible.md` and `../10_architecture/ai_architecture.md`. See `../versions/V0.3_Ultron/implementation_bible.md` (Section 17 data collection), `../../versions/InsightV1.0_Ultron/implementation_spec.md` (upgrade path), and the [README](../../README.md) for the restructured project. The three JPEG diagrams require manual re-export from the sources in `../10_architecture/diagrams/README.md`.*
+*This audit was applied as the Ultron_V0.3 restructure to `../versions/V0.3_Ultron/implementation_bible.md` and `../10_architecture/ai_architecture.md`. See `../versions/V0.3_Ultron/implementation_bible.md` (Section 17 data collection), `../../versions/InsightV1.0_Ultron/implementation_spec.md` (upgrade path), and the [README](../../README.md) for the restructured project. Architecture diagrams are maintained as version-controlled Mermaid sources in [`diagrams/`](../10_architecture/diagrams/README.md); regenerate PNGs with `mmdc` or mermaid.live.*

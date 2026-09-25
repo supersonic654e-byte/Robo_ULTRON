@@ -1,0 +1,47 @@
+# EditorConfig — keeps indentation and line endings consistent across editors.
+# https://editorconfig.org
+#
+# Line-ending policy mirrors .gitattributes (LF everywhere we control it).
+# Indentation: 2 spaces for web/yaml/json, 4 spaces for Python/C/C++, tabs for
+# Makefiles (required by GNU make).
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Python firmware/server nodes and C/C++ firmware: 4 spaces (matches existing code).
+[*.{py,c,cpp,h,hpp,ino}]
+indent_size = 4
+
+# Web/config/markdown: 2 spaces.
+[*.{md,markdown,yml,yaml,json,html,css,js,xml,cff}]
+indent_size = 2
+
+# Shell scripts: 2 spaces (no tabs — portable across bash variants).
+[*.sh]
+indent_size = 2
+
+# Mermaid diagram sources: 2 spaces.
+[*.mmd]
+indent_size = 2
+
+# Makefiles MUST use tabs for recipe lines.
+[Makefile]
+indent_style = tab
+[*{M,m}akefile]
+indent_style = tab
+
+# Binary / generated files — leave alone.
+[*.{png,jpg,jpeg,pdf,docx,xlsx,db,sqlite,mcap,bag,bin,hex,elf,o}]
+charset = unset
+end_of_line = unset
+insert_final_newline = unset
+trim_trailing_whitespace = unset
+indent_style = unset
+indent_size = unset
