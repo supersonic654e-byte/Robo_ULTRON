@@ -179,7 +179,7 @@ def test_goal_unknown_room_404():
         tok = c.post("/api/login/user",
                      json={"pin": store.get("user_pin")}).json()["token"]
         h = {"Authorization": f"Bearer {tok}"}
-        r = c.post("/api/cmd/goal", json={"room_id": "nope"}, headers=h)
+        r = c.post("/api/cmd/goal", json={"waypoint_id": "nope"}, headers=h)
         assert r.status_code == 404
 
 
@@ -190,7 +190,7 @@ def test_goal_room_live_sends_nav():
         tok = c.post("/api/login/user",
                      json={"pin": store.get("user_pin")}).json()["token"]
         h = {"Authorization": f"Bearer {tok}"}
-        r = c.post("/api/cmd/goal", json={"room_id": "room1"}, headers=h)
+        r = c.post("/api/cmd/goal", json={"waypoint_id": "room1"}, headers=h)
         assert r.status_code == 200
         assert r.json()["via"] == "navigate_to_pose"
         assert bridge.calls and bridge.calls[0][0] == "goal"

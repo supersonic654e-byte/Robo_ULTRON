@@ -26,7 +26,7 @@ def test_defaults_created():
     assert s.get("admin_hash") is not None
     assert s.get("admin_salt") is not None
     assert len(s.get("token_secret")) == 64
-    assert "room1" in s.get_rooms()
+    assert "room1" in s.get_waypoints()
 
 
 def test_first_run_secrets():
@@ -77,6 +77,6 @@ def test_missions():
 
 def test_rooms_json():
     s, _ = make_store()
-    s.set_rooms({"hall": {"x": 1, "y": 1, "theta": 0, "label": "Hall"}})
-    rooms = s.get_rooms()
+    s.set_waypoints({"hall": {"x": 1, "y": 1, "theta": 0, "label": "Hall"}})
+    rooms = s.get_waypoints()
     assert rooms["hall"]["label"] == "Hall"

@@ -6,7 +6,7 @@
 
 extern volatile uint8_t fault_flags;   // defined in the .ino
 
-static float read_current(uint8_t pin){
+float read_current(uint8_t pin){
     float v=analogRead(pin)*(5.0f/1023.0f);
     return (v-ACS712_ZERO_V)/ACS712_MV_PER_A;        // Amps
 }
